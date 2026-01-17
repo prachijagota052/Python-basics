@@ -1,0 +1,4 @@
+s=int(input("enter side length"))
+print(s)
+a= s*s
+print("area of square is", a)

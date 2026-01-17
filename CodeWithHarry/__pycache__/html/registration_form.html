@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <style>
+        body {
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+    <header><a href="">Go to Login page</a></header>
+    <center>
+    <h2><i>Register now</i></h2>
+    <form action="" id="regform" method="post">
+        <div>
+            <label for="username" id="username" placeholder="joey ken">Username:</label>
+            <input type="text">
+            <div id="errmsg1"></div>
+        </div>
+        <div>
+            <label for="password" >Password:</label>
+            <input type="password" id="password">
+            <div id="errmsg3"></div>
+        </div>
+        <div>
+            <label for="email" placeholder="abc@gmail.com">Email ID:</label>
+            <input type="email" id="email">
+            <div id="errmsg2"></div>
+        </div>
+        <div>
+            <label for="phone" placeholder="97XXXXXXXX">Phone No.:</label>
+            <input type="tel">
+        </div>
+        <div>
+            <label for="state">State:</label>
+            <select>
+                <option value="Maharashta">Maharashta</option>
+                <option value="punjab">punjab</option>
+
+            </select>
+        </div>
+        <br>
+        <button type="submit" value="Submit">Register</button>
+        </center>
+    </form>
+    <script src="reg.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+c=int(input("enter your choice 1.circle 2.rectangle 3.square 4.triangle 5.quit"))
+
+if c == 1:
+       print("calculate area of circle")
+elif c == 2:
+         print("calculate area of rectangle")
+elif c == 3:
+         print("calculate area of square")
+elif c == 4:
+         print("calculate area of triangle")
+else:
+         print("END")
+"""
+match c:
+       case "circle":
+              print("calculate area of circle")
+       case"rectangle":
+              print("calculate area of rectangle")
+       case"square":
+              print("calculate area of square")
+       case"triangle":
+              print("calculate area of triangle")
+       case"_":
+              print("END")
+"""

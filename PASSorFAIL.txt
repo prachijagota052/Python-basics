@@ -1,0 +1,5 @@
+percent = float(input("enter percentage"))
+if percent>33:
+               print("student is PASS")
+else:
+               print("student is FAIL")

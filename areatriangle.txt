@@ -1,0 +1,4 @@
+h=int(input("enter height"))
+b=int(input("enter base"))
+a= 0.5*h*b
+print("area of triangle is", a)
